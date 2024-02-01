@@ -1,0 +1,24 @@
+Depth first search algo 
+
+Used for traversing or searching in graphs or trees
+It starts from the root node, while any random node in case of graphs 
+and it searches as far as possible along each branch before backtracking. 
+
+The depth-first search algorithm of maze generation is frequently implemented using backtracking. This can be described with a following recursive routine:
+
+Given a current cell as a parameter
+Mark the current cell as visited
+While the current cell has any unvisited neighbour cells
+Choose one of the unvisited neighbours
+Remove the wall between the current cell and the chosen cell
+Invoke the routine recursively for the chosen cell
+which is invoked once for any initial cell in the area.
+
+
+
+--------------------------------------------------------------- 
+
+javascript 
+The moveTo function moves the drawing "pen" to a specified point in the canvas without drawing anything.
+The lineTo function draws a straight line from the current pen position to the specified point (x, y) in the canvas.
+// Stroke the path to actually draw the line
